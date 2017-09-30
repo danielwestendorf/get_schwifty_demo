@@ -1,7 +1,7 @@
-<% 40.times do |i| %>
-  <%= get_schwifty "dashboard#fibonacci", i: i do %>
+<% 10.times do |i| %>
+  <%= get_schwifty "dashboard#fibonacci", i: i + 20 do %>
     <p>
-      Calculating fibonacci of <%= i %>, please wait...
+      Calculating fibonacci of <%= i + 20 %>, please wait...
     </p>
   <%- end %>
 <% end %>
