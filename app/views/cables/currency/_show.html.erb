@@ -1,0 +1,2 @@
+<h1>Exchange Rates for <%= date.strftime("%Y-%m-%d") %></h1>
+<%= render partial: "currency/feed", locals: { feed: feed, date: date } %>

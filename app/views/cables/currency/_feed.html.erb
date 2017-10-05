@@ -1,0 +1,8 @@
+<% cache ["v1/currency", date] do %>
+  <% feed.each do |currency| %>
+    <% next if currency[:date] != date.to_date %>
+    <p>
+      <%= currency[:iso_code] %>: <%= currency[:rate] %>
+    </p>
+  <% end %>
+<% end %>

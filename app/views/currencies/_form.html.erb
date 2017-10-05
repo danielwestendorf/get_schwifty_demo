@@ -1,0 +1,6 @@
+<%= form_tag currencies_path do %>
+  <h2>Show currencies for date:</h2>
+  <label>Date</label>
+  <%= date_select "currency", :date, default: @date %>
+  <%= submit_tag "View" %>
+<% end %>

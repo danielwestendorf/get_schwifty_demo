@@ -1,0 +1,6 @@
+<%= render partial: "form" %>
+<%= get_schwifty "currency#show", { date: @date } do %>
+  <p>
+    Loading exchange rates for <%= @date.strftime("%Y-%m-%d") %>...
+  </p>
+<% end %>

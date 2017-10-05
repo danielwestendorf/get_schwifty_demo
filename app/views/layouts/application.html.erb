@@ -9,6 +9,11 @@
   </head>
 
   <body>
+    <nav>
+      <%= link_to "Fibonacci", root_path %>
+      &nbsp; | &nbsp;
+      <%= link_to "Exchange Rates", currencies_path %>
+    </nav>
     <%= yield %>
   </body>
 </html>
