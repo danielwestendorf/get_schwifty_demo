@@ -68,7 +68,7 @@ GEM
     execjs (2.7.0)
     ffi (1.9.18)
     fixer (0.7.0)
-    get_schwifty (0.1.0)
+    get_schwifty (0.1.1)
       rails (> 5)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
