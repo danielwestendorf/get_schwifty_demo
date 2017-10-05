@@ -11,4 +11,4 @@ Install dependencies
 
 `$ foreman start`
 or
-`$ rails s` and `$ bundle exec sidekiq -c 5`
+`$ rails s` and `$ bundle exec sidekiq -C config/sidekiq.yml
