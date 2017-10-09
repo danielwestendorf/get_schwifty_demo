@@ -1,4 +1,4 @@
-<% cache ["v1/currency", date] do %>
+<% cache ["v1/currency", date], expires_in: 30.minutes do %>
   <% feed.each do |currency| %>
     <% next if currency[:date] != date.to_date %>
     <p>
